@@ -1,4 +1,4 @@
 extends Node
 
 func _ready():
-    print("Top Trumps game started")
+    get_tree().change_scene("res://scenes/Main.tscn")
