@@ -1,2 +1,9 @@
-function CardScene() { return <div className="card-scene">Card Scene</div> }
-export default CardScene
+import React from 'react';
+function CardScene() {
+  return (
+    <div>
+      <h1>Card Scene</h1>
+    </div>
+  );
+}
+export default CardScene;
