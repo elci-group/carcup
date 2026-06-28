@@ -1,2 +1,9 @@
-function Deck() { return <div className="deck">Deck</div> }
-export default Deck
+import React from 'react';
+function Deck() {
+  return (
+    <div>
+      <h1>Deck</h1>
+    </div>
+  );
+}
+export default Deck;
